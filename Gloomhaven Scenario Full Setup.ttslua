@@ -9607,8 +9607,8 @@ ScenarioInformation_All = {
 				,tiles	= {
 					{
 						adjacentTiles	= {"D1","J1"}
-						,position		= {x=5.688674, y=1.932661, z=-3.790152}
-						,rotation		= {x=359.941956, y=299.899963, z=187.548569}
+						,position		= {x=5.687500, y=1.818520, z=-3.788863}
+						,rotation		= {x=0.002392, y=299.963440, z=179.997131}
 					}
 					,{
 						adjacentTiles	= {"D2","J2"}
@@ -9712,8 +9712,8 @@ ScenarioInformation_All = {
 			}
 			,{
 				tile			= "D1"
-				,position		= {x=7.000081, y=1.877606, z=0.000828}
-				,rotation		= {x=0.825421, y=29.956442, z=359.940552}
+				,position		= {x=7.005146, y=1.818495, z=0.004465}
+				,rotation		= {x=-0.000171, y=30.014030, z=0.000787}
 				,overlayTiles	= {
 					--Obstacles
 					{
@@ -9775,8 +9775,8 @@ ScenarioInformation_All = {
 			}
 			,{
 				tile			= "J1"
-				,position		= {x=1.761060, y=1.818488, z=-1.522914}
-				,rotation		= {x=0.000595, y=0.135309, z=0.000404}
+				,position		= {x=1.748431, y=1.818478, z=-1.515912}
+				,rotation		= {x=0.000002, y=0.091692, z=0.000561}
 				,monsters		= {
 					{
 						name	= "Night Demon"
