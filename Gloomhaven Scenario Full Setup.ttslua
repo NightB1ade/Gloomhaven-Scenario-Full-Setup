@@ -30521,7 +30521,7 @@ function spawnMonsters(params_MapTiles,GridType,params_AdjacentTiles)
 									params.monsterPosition = tIndividual.position
 
 									--Call Spawn Monster
-									wait(0.1)
+									wait(0.2)
 									getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
 								end
 							end
