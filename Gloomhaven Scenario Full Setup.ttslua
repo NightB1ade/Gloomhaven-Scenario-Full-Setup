@@ -35657,7 +35657,7 @@ function revealRoom(params)
 		wait(Delay_Spawning)
 		getObjectFromGUID(params.doorTile_GUID).unlock()
 		getObjectFromGUID(params.doorTile_GUID).flip()
-		wait(2)
+		wait(3)
 		getObjectFromGUID(params.doorTile_GUID).lock()
 
 		return 1
