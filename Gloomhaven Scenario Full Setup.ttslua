@@ -26221,6 +26221,124 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Flame Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=2.273324, y=2.068438, z=-1.312492}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-1.515547, y=2.068383, z=0.000010}
+							}
+						}
+					}
+					,{
+						name	= "Frost Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=3.031100, y=2.068465, z=-5.250006}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-0.757773, y=2.068409, z=-3.937500}
+							}
+						}
+					}
+					,{
+						name	= "Giant Viper"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-0.000003, y=2.068425, z=-5.250003}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=2.273317, y=2.068449, z=-3.937500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000000, y=2.068414, z=-2.624999}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=4.546636, y=2.068475, z=-2.624999}
+							}
+						}
+					}
+					,{
+						name	= "Ooze"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-3.031090, y=2.068373, z=-2.624997}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=3.031090, y=2.068454, z=-2.625000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=1.515547, y=2.068424, z=0.000003}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=0.000000, y=2.068402, z=0.000003}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "A1"
@@ -26438,8 +26556,8 @@ ScenarioInformation_All = {
 			}
 			,{
 				tile			= "C1"
-				,position		= {x=0.757701, y=1.888350, z=19.687405}
-				,rotation		= {x=0.899262, y=329.984741, z=359.495117}
+				,position		= {x=0.770540, y=1.818026, z=19.682365}
+				,rotation		= {x=0.000602, y=329.826111, z=0.000540}
 				,overlayTiles	= {
 					--Obstacles
 					{
@@ -26449,8 +26567,8 @@ ScenarioInformation_All = {
 								name	= "Stone Pillar"
 								,tiles	= {
 									{
-										position	= {x=1.515799, y=1.977844, z=21.003300}
-										,rotation	= {x=0.013440, y=270.044189, z=358.968811}
+										position	= {x=1.515547, y=1.931025, z=21.000000}
+										,rotation	= {x=0.000765, y=270.003235, z=-0.000248}
 									}
 								}
 							}
@@ -26464,14 +26582,63 @@ ScenarioInformation_All = {
 								name	= "Treasure Chest Horizontal"
 								,tiles	= {
 									{
-										position	= {x=2.273650, y=1.954402, z=22.314949}
-										,rotation	= {x=359.986542, y=90.046326, z=1.031197}
+										position	= {x=2.273317, y=1.931030, z=22.312500}
+										,rotation	= {x=-0.000766, y=90.031151, z=0.000250}
 										,params		= {
 											buttonTheme		= "Treasure"
 											,buttonLabel	= "G"
 										}
 									}
 								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Flame Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=3.031079, y=2.114887, z=21.004389}
+							}
+						}
+					}
+					,{
+						name	= "Giant Viper"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-0.757967, y=2.137681, z=19.691734}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=2.273317, y=2.138424, z=19.687496}
+							}
+						}
+					}
+					,{
+						name	= "Ooze"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.757769, y=2.090763, z=22.316858}
 							}
 						}
 					}
@@ -26522,6 +26689,100 @@ ScenarioInformation_All = {
 										}
 									}
 								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Flame Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-3.031089, y=2.068316, z=10.500001}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-1.515544, y=2.068336, z=10.500000}
+							}
+						}
+					}
+					,{
+						name	= "Frost Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-4.546633, y=2.068307, z=7.875000}
+							}
+						}
+					}
+					,{
+						name	= "Giant Viper"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-5.304405, y=2.068291, z=9.187500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-4.546633, y=2.068296, z=10.500000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-6.062178, y=2.068275, z=10.500000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-3.788861, y=2.068300, z=11.812500}
+							}
+						}
+					}
+					,{
+						name	= "Ooze"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-1.515544, y=2.068347, z=7.875000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-0.757772, y=2.068352, z=9.187500}
 							}
 						}
 					}
@@ -26673,6 +26934,66 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Living Bones"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=3.788859, y=2.068470, z=-3.937500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000000, y=2.068413, z=-2.625000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-2.273316, y=2.068366, z=1.312496}
+							}
+						}
+					}
+					,{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {x=0.000000, y=2.184352, z=2.625161}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-1.515546, y=2.067758, z=5.249837}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=1.515550, y=2.067799, z=5.250005}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "M1"
@@ -26752,6 +27073,111 @@ ScenarioInformation_All = {
 						,{
 							position	= {x=6.819951, y=1.937350, z=-3.937500}
 							,rotation	= {x=0.000594, y=330.014252, z=0.000546}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Inox Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-0.757776, y=2.071037, z=-1.312496}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-2.273317, y=2.071017, z=-1.312499}
+							}
+						}
+					}
+					,{
+						name	= "Inox Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=0.000000, y=2.071053, z=-2.625000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-1.515545, y=2.071032, z=-2.625000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-3.031089, y=2.071012, z=-2.625000}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=3.031089, y=2.071104, z=-5.250000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=3.031089, y=2.071115, z=-7.875000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.757772, y=2.071079, z=-6.562500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=0.757772, y=2.071069, z=-3.937500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000000, y=2.071074, z=-7.875000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-1.515545, y=2.071043, z=-5.250000}
+							}
 						}
 					}
 				}
@@ -26838,6 +27264,63 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Flame Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.757772, y=2.068360, z=11.812500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000000, y=2.068344, z=13.125000}
+							}
+						}
+					}
+					,{
+						name	= "Inox Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=0.757772, y=2.068371, z=9.187500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-2.273317, y=2.068320, z=11.812500}
+							}
+						}
+					}
+					,{
+						name	= "Inox Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-1.515544, y=2.068335, z=10.500000}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "I2"
@@ -26876,6 +27359,71 @@ ScenarioInformation_All = {
 										,rotation	= {x=-0.000768, y=89.995270, z=0.000251}
 									}
 								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Flame Demon"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-3.031089, y=2.067739, z=5.250000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-2.273316, y=2.067743, z=6.562500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=0.757772, y=2.067783, z=6.562500}
+							}
+						}
+					}
+					,{
+						name	= "Inox Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=0.757772, y=2.067795, z=3.937500}
+							}
+						}
+					}
+					,{
+						name	= "Inox Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000000, y=2.067791, z=2.625000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-3.031089, y=2.067750, z=2.625000}
 							}
 						}
 					}
@@ -26957,6 +27505,74 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Forest Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-5.304388, y=2.068115, z=1.312500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-3.788861, y=2.068029, z=1.312500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-6.062178, y=2.068163, z=0.000000}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-4.546634, y=2.068076, z=0.000000}
+							}
+						}
+					}
+					,{
+						name	= "Ooze"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-3.788863, y=2.068020, z=3.937500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-8.335495, y=2.068287, z=1.312500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-7.577722, y=2.068249, z=0.000000}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "K1"
@@ -26991,6 +27607,82 @@ ScenarioInformation_All = {
 										,rotation	= {x=359.994049, y=89.985657, z=0.004314}
 									}
 								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Forest Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=4.546594, y=2.070931, z=-5.249983}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=5.304408, y=2.071108, z=-6.562504}
+							}
+						}
+					}
+					,{
+						name	= "Ooze"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-0.000022, y=2.070262, z=-2.624983}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-0.757772, y=2.070282, z=-3.937501}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.757773, y=2.070439, z=-3.937502}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=5.304408, y=2.070713, z=-1.312498}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=7.577738, y=2.071047, z=-2.625002}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=7.577724, y=2.070850, z=0.000002}
 							}
 						}
 					}
@@ -27098,6 +27790,82 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Forest Imp"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=6.819950, y=2.068508, z=3.937501}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=3.788860, y=2.068460, z=3.937501}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=3.788860, y=2.068426, z=6.562500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=4.546626, y=2.068421, z=7.875006}
+							}
+						}
+					}
+					,{
+						name	= "Rending Drake"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=9.093267, y=2.068561, z=2.624991}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=9.851048, y=2.068555, z=3.937488}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=6.062175, y=2.068411, z=10.500003}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=4.546632, y=2.068387, z=10.500005}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -27107,7 +27875,7 @@ ScenarioInformation_All = {
 			{image = "http://cloud-3.steamusercontent.com/ugc/931553965084830122/6B1E9F9B01B861F13320DD6D2C4D03424D6C0F22/"}
 			,{image = "http://cloud-3.steamusercontent.com/ugc/931553965084824380/80B8507BDBE0054272637672574BE3A5D2C6448C/"}
 		}
-		,gridType		= Constant_TypeOverlay_Vertical
+		,gridType		= Constant_Grid_Vertical
 		,doorTiles		= {
 			{
 				name	= "Dark Fog"
@@ -27175,6 +27943,58 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Hound"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-0.000017, y=2.068264, z=-0.874954}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-1.515548, y=2.068247, z=-0.874996}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=1.515545, y=2.068281, z=-0.875000}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-0.757791, y=2.068102, z=0.437528}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.757771, y=2.068119, z=0.437501}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "B1"
@@ -27221,6 +28041,34 @@ ScenarioInformation_All = {
 										}
 									}
 								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Hound"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-9.093270, y=2.067648, z=-0.875002}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-10.608815, y=2.067606, z=-0.875001}
 							}
 						}
 					}
@@ -27275,6 +28123,34 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Hound"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=9.093258, y=2.067847, z=-0.875001}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=10.608799, y=2.067942, z=-0.875003}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "B3"
@@ -27312,6 +28188,29 @@ ScenarioInformation_All = {
 										}
 									}
 								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-9.093253, y=2.067645, z=12.250003}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-9.851039, y=2.067645, z=10.937500}
 							}
 						}
 					}
@@ -27357,11 +28256,94 @@ ScenarioInformation_All = {
 						}
 					}
 				}
+				,monsters		= {
+					{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=9.093262, y=2.067848, z=12.249999}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=9.861073, y=2.067873, z=10.943391}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "H2"
 				,position		= {x=0.757776, y=1.818365, z=8.312505}
 				,rotation		= {x=0.000134, y=269.982422, z=179.992554}
+				,monsters		= {
+					{
+						name	= "Hound"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-2.273312, y=2.068017, z=10.937530}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=2.273317, y=2.068027, z=10.937498}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-3.031088, y=2.068186, z=9.624998}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= nil
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=3.031089, y=2.068200, z=9.624998}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000007, y=2.068534, z=7.000031}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= nil
+								}
+								,position		= {x=0.000000, y=2.068193, z=9.624998}
+							}
+						}
+					}
+				}
 			}
 			,{
 				tile			= "I2"
@@ -27460,6 +28442,79 @@ ScenarioInformation_All = {
 										,rotation	= {x=0.003861, y=179.973709, z=0.015316}
 									}
 								}
+							}
+						}
+					}
+				}
+				,monsters		= {
+					{
+						name	= "Hound"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-3.031027, y=2.067459, z=14.874952}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=3.031087, y=2.065839, z=14.875001}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-2.273317, y=2.067344, z=16.187500}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=2.273317, y=2.066129, z=16.187500}
+							}
+						}
+					}
+					,{
+						name	= "Inox Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000068, y=2.066825, z=17.499983}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Scout"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-0.757702, y=2.066939, z=16.187483}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=0.757772, y=2.066534, z=16.187500}
 							}
 						}
 					}
