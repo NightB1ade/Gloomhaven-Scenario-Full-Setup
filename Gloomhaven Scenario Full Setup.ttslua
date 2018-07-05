@@ -43726,7 +43726,10 @@ function revealRoom(params)
 	--Flip Door
 	-----------
 	function flipDoorTile()
-		wait(Delay_Spawning+2)
+		wait(Delay_Spawning+1)
+		local position = getObjectFromGUID(params.doorTile_GUID).getPosition()
+		position.y = position.y + 0.2
+		getObjectFromGUID(params.doorTile_GUID).setPosition(position)
 		getObjectFromGUID(params.doorTile_GUID).unlock()
 		getObjectFromGUID(params.doorTile_GUID).flip()
 		wait(3)
