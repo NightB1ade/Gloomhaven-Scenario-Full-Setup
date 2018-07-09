@@ -424,7 +424,7 @@ ScenarioInformation_All = {
 							,{
 								numCharacters	= {
 									[2]		= Constant_LevelMonster_Normal
-									,[3]	= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
 									,[4]	= Constant_LevelMonster_Normal
 								}
 								,position		= {x=-5.687500, y=2.067702, z=5.304405}
