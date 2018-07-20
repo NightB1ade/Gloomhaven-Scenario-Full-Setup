@@ -6615,6 +6615,14 @@ ScenarioInformation_All = {
 								}
 								,position		= {x=3.062499, y=2.067793, z=11.366583}
 							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=6.999997, y=2.065337, z=13.640001}
+							}
 						}
 					}
 					,{
@@ -8069,14 +8077,6 @@ ScenarioInformation_All = {
 							}
 							,{
 								numCharacters	= {
-									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=9.851039, y=2.067302, z=5.687500}
-							}
-							,{
-								numCharacters	= {
 									[2]		= Constant_LevelMonster_Normal
 									,[3]	= Constant_LevelMonster_Normal
 									,[4]	= Constant_LevelMonster_Normal
@@ -8090,6 +8090,19 @@ ScenarioInformation_All = {
 									,[4]	= Constant_LevelMonster_Normal
 								}
 								,position		= {x=5.304403, y=2.067832, z=5.687500}
+							}
+						}
+					}
+					,{
+						name	= "Vermling Shaman"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=9.851039, y=2.067302, z=5.687500}
 							}
 							,{
 								numCharacters	= {
@@ -9791,7 +9804,7 @@ ScenarioInformation_All = {
 							}
 							,{
 								numCharacters	= {
-									[2]		= Constant_LevelMonster_Elitew
+									[2]		= Constant_LevelMonster_Elite
 									,[3]	= Constant_LevelMonster_Elite
 									,[4]	= Constant_LevelMonster_Elite
 								}
@@ -22096,7 +22109,7 @@ ScenarioInformation_All = {
 							}
 							,{
 								numCharacters	= {
-									[2]		= Constant_LevelMonster_Normal
+									[2]		= nil
 									,[3]	= Constant_LevelMonster_Normal
 									,[4]	= Constant_LevelMonster_Normal
 								}
