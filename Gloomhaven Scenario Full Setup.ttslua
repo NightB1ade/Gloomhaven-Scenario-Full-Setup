@@ -434,6 +434,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"Living Bones"
+		}
 	}
 	--Scenario 2
 	,[2] = {
@@ -784,6 +789,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Commander"
+			,"Living Bones"
+			,"Living Corpse"
 		}
 	}
 	--Scenario 3
@@ -1470,6 +1481,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Inox Archer"
+			,"Inox Guard"
+			,"Inox Shaman"
+		}
 	}
 	--Scenario 4
 	,[4] = {
@@ -1891,6 +1907,13 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Cultist"
+			,"Earth Demon"
+			,"Living Bones"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 5
 	,[5] = {
@@ -2288,6 +2311,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cultist"
+			,"Flame Demon"
+			,"Frost Demon"
+			,"Living Bones"
+			,"Night Demon"
 		}
 	}
 	--Scenario 6
@@ -2953,6 +2983,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Living Bones"
+			,"Living Corpse"
+			,"Living Spirit"
+		}
 	}
 	--Scenario 7
 	,[7] = {
@@ -3557,6 +3592,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Earth Demon"
+			,"Forest Imp"
+			,"Inox Shaman"
+		}
 	}
 	--Scenario 8
 	,[8] = {
@@ -3916,6 +3957,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Inox Bodyguard"
+			,"Living Bones"
+			,"Living Corpse"
+		}
 	}
 	--Scenario 9
 	,[9] = {
@@ -4248,6 +4294,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Hound"
+			,"Merciless Overseer"
+			,"Vermling Shaman"
 		}
 	}
 	--Scenario 10
@@ -4716,6 +4767,11 @@ ScenarioInformation_All = {
 				,position		= {x=-1.750000, y=7.293697, z=-4.546633}
 				,rotation		= {x=0.000250, y=0.005393, z=180.000778}
 			}
+		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Flame Demon"
+			,"Sun Demon"
 		}
 	}
 	--Scenario 11
@@ -5370,6 +5426,13 @@ ScenarioInformation_All = {
 				,position		= {x=-5.690715, y=7.292314, z=14.399787}
 				,rotation		= {x=359.980103, y=179.983078, z=180.002502}
 			}
+		}
+		,monsterList	= {
+			"Captain of the Guard"
+			,"City Archer"
+			,"City Guard"
+			,"Living Bones"
+			,"Living Corpse"
 		}
 	}
 	--Scenario 12
@@ -6045,6 +6108,14 @@ ScenarioInformation_All = {
 				,rotation		= {x=359.980103, y=179.983078, z=180.002502}
 			}
 		}
+		,monsterList	= {
+			"City Archer"
+			,"City Guard"
+			,"Cultist"
+			,"Jekserah"
+			,"Living Bones"
+			,"Living Corpse"
+		}
 	}
 	--Scenario 13
 	,[13] = {
@@ -6354,6 +6425,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Living Spirit"
+			,"Spitting Drake"
+			,"Stone Golem"
 		}
 	}
 	--Scenario 14
@@ -6763,6 +6840,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Frost Demon"
+			,"Hound"
+			,"Living Spirit"
 		}
 	}
 	--Scenario 15
@@ -7261,6 +7343,13 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Frost Demon"
+			,"Harrower Infester"
+			,"Savvas Icestorm"
+			,"Stone Golem"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 16
 	,[16] = {
@@ -7630,6 +7719,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Inox Archer"
+			,"Inox Guard"
+			,"Wind Demon"
 		}
 	}
 	--Scenario 17
@@ -8192,6 +8287,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Vermling Scout"
+			,"Vermling Shaman"
+		}
 	}
 	--Scenario 18
 	,[18] = {
@@ -8737,6 +8837,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Giant Viper"
+			,"Ooze"
+			,"Vermling Scout"
+		}
 	}
 	--Scenario 19
 	,[19] = {
@@ -9196,6 +9301,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cultist"
+			,"Living Bones"
+			,"Living Corpse"
+			,"Living Spirit"
+		}
 	}
 	--Scenario 20
 	,[20] = {
@@ -9606,6 +9717,13 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cultist"
+			,"Jekserah"
+			,"Living Bones"
+			,"Living Corpse"
+			,"Night Demon"
+		}
 	}
 	--Scenario 21
 	,[21] = {
@@ -9884,6 +10002,15 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Flame Demon"
+			,"Frost Demon"
+			,"Night Demon"
+			,"Prime Demon"
+			,"Sun Demon"
+			,"Wind Demon"
 		}
 	}
 	--Scenario 22
@@ -10242,6 +10369,14 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cultist"
+			,"Earth Demon"
+			,"Flame Demon"
+			,"Frost Demon"
+			,"Living Bones"
+			,"Wind Demon"
 		}
 	}
 	--Scenario 23
@@ -10682,6 +10817,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Ancient Artillery"
+			,"Living Bones"
+			,"Living Spirit"
+			,"Stone Golem"
 		}
 	}
 	--Scenario 24
@@ -11321,6 +11462,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Living Spirit"
+			,"Ooze"
+			,"Rending Drake"
+		}
 	}
 	--Scenario 25
 	,[25] = {
@@ -11693,6 +11839,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Hound"
+			,"Rending Drake"
+			,"Spitting Drake"
 		}
 	}
 	--Scenario 26
@@ -12142,6 +12293,12 @@ ScenarioInformation_All = {
 				,rotation		= {x=-0.005130, y=89.998734, z=-0.000627}
 			}
 		}
+		,monsterList	= {
+			"Black Imp"
+			,"Living Corpse"
+			,"Night Demon"
+			,"Ooze"
+		}
 	}
 	--Scenario 27
 	,[27] = {
@@ -12197,6 +12354,14 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Flame Demon"
+			,"Frost Demon"
+			,"Night Demon"
+			,"Sun Demon"
+			,"Wind Demon"
 		}
 	}
 	--Scenario 28
@@ -12509,6 +12674,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cultist"
+			,"Living Bones"
+			,"Living Corpse"
+			,"Night Demon"
+			,"Sun Demon"
 		}
 	}
 	--Scenario 29
@@ -13002,6 +13174,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Black Imp"
+			,"Living Bones"
+			,"Living Corpse"
+			,"Living Spirit"
+		}
 	}
 	--Scenario 30
 	,[30] = {
@@ -13469,6 +13647,11 @@ ScenarioInformation_All = {
 				,rotation		= {x=0.000250, y=359.975983, z=180.000778}
 			}
 		}
+		,monsterList	= {
+			"Deep Terror"
+			,"Lurker"
+			,"Ooze"
+		}
 	}
 	--Scenario 31
 	,[31] = {
@@ -13859,6 +14042,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Black Imp"
+			,"Deep Terror"
+			,"Night Demon"
 		}
 	}
 	--Scenario 32
@@ -14562,6 +14750,12 @@ ScenarioInformation_All = {
 				,rotation		= {x=0.000765, y=269.991547, z=179.999741}
 			}
 		}
+		,monsterList	= {
+			"Black Imp"
+			,"Deep Terror"
+			,"Giant Viper"
+			,"Harrower Infester"
+		}
 	}
 	--Scenario 33
 	,[33] = {
@@ -14960,6 +15154,14 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Flame Demon"
+			,"Frost Demon"
+			,"Savvas Icestorm"
+			,"Savvas Lavaflow"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 34
 	,[34] = {
@@ -15219,6 +15421,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Elder Drake"
+			,"Rending Drake"
+			,"Spitting Drake"
 		}
 	}
 	--Scenario 35
@@ -15693,6 +15900,14 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"City Archer"
+			,"City Guard"
+			,"Earth Demon"
+			,"Flame Demon"
+			,"Frost Demon"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 36
 	,[36] = {
@@ -16044,6 +16259,14 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"City Archer"
+			,"Earth Demon"
+			,"Flame Demon"
+			,"Frost Demon"
+			,"Prime Demon"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 37
 	,[37] = {
@@ -16394,6 +16617,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Deep Terror"
+			,"Harrower Infester"
+			,"Lurker"
 		}
 	}
 	--Scenario 38
@@ -16829,6 +17057,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Inox Archer"
+			,"Inox Guard"
+			,"Inox Shaman"
+			,"Stone Golem"
+		}
 	}
 	--Scenario 39
 	,[39] = {
@@ -17180,6 +17414,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Cultist"
+			,"Frost Demon"
+			,"Living Bones"
+			,"Spitting Drake"
 		}
 	}
 	--Scenario 40
@@ -17822,6 +18063,13 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Flame Demon"
+			,"Forest Imp"
+			,"Living Corpse"
+			,"Stone Golem"
+		}
 	}
 	--Scenario 41
 	,[41] = {
@@ -18220,6 +18468,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Ancient Artillery"
+			,"Living Corpse"
+			,"Living Spirit"
+			,"Stone Golem"
+		}
 	}
 	--Scenario 42
 	,[42] = {
@@ -18424,6 +18678,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Living Spirit"
+			,"Night Demon"
+			,"Wind Demon"
 		}
 	}
 	--Scenario 43
@@ -19006,6 +19265,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Flame Demon"
+			,"Rending Drake"
+			,"Spitting Drake"
+		}
 	}
 	--Scenario 44
 	,[44] = {
@@ -19520,6 +19784,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Hound"
+			,"Inox Archer"
+			,"Inox Guard"
+			,"Inox Shaman"
 		}
 	}
 	--Scenario 45
@@ -20036,6 +20306,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"City Archer"
+			,"City Guard"
+			,"Hound"
+		}
 	}
 	--Scenario 46
 	,[46] = {
@@ -20396,6 +20671,13 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Frost Demon"
+			,"Night Demon"
+			,"Savvas Icestorm"
+			,"Wind Demon"
+			,"Winged Horror"
+		}
 	}
 	--Scenario 47
 	,[47] = {
@@ -20654,6 +20936,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Deep Terror"
+			,"Harrower Infester"
+			,"Lurker"
+			,"The Sightless"
+		}
 	}
 	--Scenario 48
 	,[48] = {
@@ -20661,9 +20949,6 @@ ScenarioInformation_All = {
 			{image = "http://cloud-3.steamusercontent.com/ugc/931553965084839059/7AA80A43DBCA103082008EC7C2E5BC71E816C49A/"}
 		}
 		,gridType		= Constant_Grid_Vertical
-		,doorTiles		= {
-
-		}
 		,mapTiles		= {
 			{
 				tile			= "L1"
@@ -20937,6 +21222,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Dark Rider"
+			,"Earth Demon"
+			,"Forest Imp"
+			,"Harrower Infester"
 		}
 	}
 	--Scenario 49
@@ -21303,6 +21594,12 @@ ScenarioInformation_All = {
 				,position		= {x=-0.092576, y=7.293680, z=4.546600}
 				,rotation		= {x=-0.000249, y=180.009369, z=179.999222}
 			}
+		}
+		,monsterList	= {
+			"Ancient Artillery"
+			,"City Archer"
+			,"City Guard"
+			,"Giant Viper"
 		}
 	}
 	--Scenario 50
@@ -21759,6 +22056,12 @@ ScenarioInformation_All = {
 				,rotation		= {x=359.993378, y=0.015656, z=180.002716}
 			}
 		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Night Demon"
+			,"Sun Demon"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 51
 	,[51] = {
@@ -21912,6 +22215,9 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"The Gloom"
 		}
 	}
 	--Scenario 52
@@ -22648,6 +22954,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Living Corpse"
+			,"Ooze"
+			,"Spitting Drake"
+			,"Vermling Scout"
+			,"Vermling Shaman"
 		}
 	}
 	--Scenario 53
@@ -23445,6 +23758,13 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Giant Viper"
+			,"Living Bones"
+			,"Living Corpse"
+			,"Living Spirit"
+			,"Ooze"
+		}
 	}
 	--Scenario 54
 	,[54] = {
@@ -23464,7 +23784,7 @@ ScenarioInformation_All = {
 				}
 			}
 		}
-		,mapTiles	= {
+		,mapTiles		= {
 			{
 				tile			= "G2"
 				,position		= {x=-0.000001, y=1.759055, z=10.608812}
@@ -23801,6 +24121,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Frost Demon"
+			,"Harrower Infester"
+			,"Living Spirit"
 		}
 	}
 	--Scenario 55
@@ -24283,6 +24609,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"Hound"
+			,"Rending Drake"
+		}
 	}
 	--Scenario 57
 	,[57] = {
@@ -24694,6 +25026,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"City Archer"
+			,"City Guard"
+			,"Hound"
 		}
 	}
 	--Scenario 58
@@ -25115,6 +25452,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Black Imp"
+			,"City Guard"
+			,"Earth Demon"
+			,"Harrower Infester"
 		}
 	}
 	--Scenario 59
@@ -25644,6 +25987,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Forest Imp"
+			,"Hound"
+		}
 	}
 	--Scenario 60
 	,[60] = {
@@ -26155,6 +26503,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Giant Viper"
+			,"Hound"
+			,"Ooze"
+			,"Rending Drake"
+			,"Spitting Drake"
 		}
 	}
 	--Scenario 61
@@ -26802,6 +27157,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Flame Demon"
+			,"Frost Demon"
+			,"Giant Viper"
+			,"Ooze"
+		}
 	}
 	--Scenario 62
 	,[62] = {
@@ -27034,6 +27395,10 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Living Bones"
+			,"Living Spirit"
 		}
 	}
 	--Scenario 63
@@ -27442,6 +27807,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Flame Demon"
+			,"Inox Archer"
+			,"Inox Guard"
+			,"Vermling Scout"
 		}
 	}
 	--Scenario 64
@@ -27880,6 +28251,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Forest Imp"
+			,"Ooze"
+			,"Rending Drake"
 		}
 	}
 	--Scenario 65
@@ -28533,6 +28909,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Hound"
+			,"Inox Shaman"
+			,"Vermling Scout"
 		}
 	}
 	--Scenario 66
@@ -29232,6 +29613,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Ancient Artillery"
+			,"Living Spirit"
+			,"Ooze"
+			,"Stone Golem"
+		}
 	}
 	--Scenario 67
 	,[67] = {
@@ -29684,6 +30071,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Forest Imp"
+			,"Stone Golem"
+		}
 	}
 	--Scenario 68
 	,[68] = {
@@ -30125,6 +30517,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Black Imp"
+			,"Giant Viper"
+			,"Living Corpse"
+			,"Rending Drake"
 		}
 	}
 	--Scenario 69
@@ -30603,11 +31001,18 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Forest Imp"
+			,"Living Spirit"
+			,"Stone Golem"
+			,"Vermling Scout"
+			,"Vermling Shaman"
+		}
 	}
 	--Scenario 70
 	,[70] = {
 		scenarioPages	= {
-		{image = "http://cloud-3.steamusercontent.com/ugc/931553965084830345/1F2EE2A88CCE534F28EC70E5C2D5DC605AA182FA/"}
+			{image = "http://cloud-3.steamusercontent.com/ugc/931553965084830345/1F2EE2A88CCE534F28EC70E5C2D5DC605AA182FA/"}
 			,{image = "http://cloud-3.steamusercontent.com/ugc/931553965084821881/9D5DC0BD5B3EE29B352D3145C35DE45BE9672B46/"}
 		}
 		,gridType		= Constant_Grid_Vertical
@@ -31165,6 +31570,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Light Spirit"
+			,"Night Demon"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 71
 	,[71] = {
@@ -31620,6 +32030,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Spitting Drake"
+			,"Sun Demon"
+			,"Wind Demon"
+		}
 	}
 	--Scenario 72
 	,[72] = {
@@ -31963,6 +32378,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Forest Imp"
+			,"Giant Viper"
+			,"Ooze"
 		}
 	}
 	--Scenario 73
@@ -32404,6 +32824,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Ancient Artillery"
+			,"Hound"
+			,"Inox Archer"
+			,"Inox Guard"
+			,"Inox Shaman"
 		}
 	}
 	--Scenario 74
@@ -32870,6 +33297,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"Deep Terror"
+			,"Lurker"
+		}
 	}
 	--Scenario 75
 	,[75] = {
@@ -33303,6 +33736,11 @@ ScenarioInformation_All = {
 				,position		= {x=-4.546633, y=7.293659, z=-3.499999}
 				,rotation		= {x=0.000767, y=270.001709, z=179.999756}
 			}
+		}
+		,monsterList	= {
+			"Living Bones"
+			,"Living Corpse"
+			,"Living Spirit"
 		}
 	}
 	--Scenario 76
@@ -34087,6 +34525,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Giant Viper"
+			,"Harrower Infester"
+			,"Living Bones"
+			,"Night Demon"
+		}
 	}
 	--Scenario 77
 	,[77] = {
@@ -34575,6 +35019,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"City Archer"
+			,"City Guard"
+			,"Hound"
+			,"Stone Golem"
+		}
 	}
 	--Scenario 78
 	,[78] = {
@@ -34917,6 +35367,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"Black Imp"
+			,"Cultist"
+			,"Living Bones"
 		}
 	}
 	--Scenario 79
@@ -35270,6 +35727,11 @@ ScenarioInformation_All = {
 				,position		= {x=0.758118, y=1.818359, z=10.947437}
 				,rotation		= {x=-0.000657, y=90.032967, z=0.000265}
 			}
+		}
+		,monsterList	= {
+			"The Betrayer"
+			,"Giant Viper"
+			,"Stone Golem"
 		}
 	}
 	--Scenario 80
@@ -35871,6 +36333,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Ancient Artillery"
+			,"City Archer"
+			,"City Guard"
+			,"Hound"
+		}
 	}
 	--Scenario 81
 	,[81] = {
@@ -36338,6 +36806,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Ancient Artillery"
+			,"The Colorless"
+			,"Night Demon"
+			,"Stone Golem"
+			,"Sun Demon"
 		}
 	}
 	--Scenario 82
@@ -36810,6 +37285,11 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Flame Demon"
+			,"Stone Golem"
+		}
 	}
 	--Scenario 83
 	,[83] = {
@@ -37115,6 +37595,13 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cultist"
+			,"Flame Demon"
+			,"Hound"
+			,"Living Bones"
+			,"Living Spirit"
 		}
 	}
 	--Scenario 84
@@ -37605,6 +38092,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Flame Demon"
+			,"Frost Demon"
 		}
 	}
 	--Scenario 85
@@ -38152,6 +38644,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Black Imp"
+			,"Hound"
+			,"Night Demon"
+			,"Sun Demon"
+		}
 	}
 	--Scenario 86
 	,[86] = {
@@ -38550,6 +39048,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Lurker"
+			,"Vermling Scout"
+			,"Vermling Shaman"
 		}
 	}
 	--Scenario 87
@@ -38996,6 +39500,12 @@ ScenarioInformation_All = {
 				,rotation		= {x=0.000252, y=359.980042, z=0.000766}
 			}
 		}
+		,monsterList	= {
+			"Black Imp"
+			,"Deep Terror"
+			,"Lurker"
+			,"Ooze"
+		}
 	}
 	--Scenario 88
 	,[88] = {
@@ -39346,6 +39856,11 @@ ScenarioInformation_All = {
 				,position		= {x=-2.273318, y=1.759084, z=-3.062500}
 				,rotation		= {x=-0.000766, y=90.005531, z=0.000250}
 			}
+		}
+		,monsterList	= {
+			"Frost Demon"
+			,"Lurker"
+			,"Ooze"
 		}
 	}
 	--Scenario 89
@@ -39928,6 +40443,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"Cultist"
+			,"Giant Viper"
+		}
 	}
 	--Scenario 90
 	,[90] = {
@@ -40252,6 +40773,12 @@ ScenarioInformation_All = {
 				,position		= {x=0.879064, y=1.700037, z=-3.036925}
 				,rotation		= {x=0.001070, y=330.113678, z=179.991516}
 			}
+		}
+		,monsterList	= {
+			"Earth Demon"
+			,"Living Spirit"
+			,"Night Demon"
+			,"Wind Demon"
 		}
 	}
 	--Scenario 91
@@ -40751,6 +41278,13 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"Cave Bear"
+			,"Hound"
+			,"Living Spirit"
+		}
 	}
 	--Scenario 92
 	,[92] = {
@@ -41038,6 +41572,16 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Bandit Archer"
+			,"Bandit Guard"
+			,"City Archer"
+			,"City Guard"
+			,"Earth Demon"
+			,"Flame Demon"
+			,"Inox Guard"
+			,"Savvas Lavaflow"
 		}
 	}
 	--Scenario 93
@@ -41533,6 +42077,11 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Frost Demon"
+			,"Living Spirit"
+			,"Lurker"
 		}
 	}
 	--Scenario 94
@@ -42112,6 +42661,12 @@ ScenarioInformation_All = {
 				}
 			}
 		}
+		,monsterList	= {
+			"Cave Bear"
+			,"Hound"
+			,"Vermling Scout"
+			,"Vermling Shaman"
+		}
 	}
 	--Scenario 95
 	,[95] = {
@@ -42492,6 +43047,12 @@ ScenarioInformation_All = {
 					}
 				}
 			}
+		}
+		,monsterList	= {
+			"Deep Terror"
+			,"Earth Demon"
+			,"Flame Demon"
+			,"Savvas Lavaflow"
 		}
 	}
 }
@@ -43623,6 +44184,7 @@ function createMap()
 	Tiles_MonsterUnspawned = {}
 	local ScenarioInformation = deepCopy(ScenarioInformation_All[NumScenario])
 	local tMonsters = {}
+	local FullMonsterList = {}
 
 
 
@@ -43699,6 +44261,35 @@ function createMap()
 	end
 	spawnMonsters(tMonsters,ScenarioInformation.gridType)
 
+
+
+
+	--------------------
+	--Monster Stat Cards
+	--------------------
+	if ScenarioInformation.monsterList ~= nil then
+		for _,tMonsterList in ipairs(ScenarioInformation.monsterList) do
+			local params = {}
+
+			params.monsterName = tMonsterList
+
+			if TypeMonster == Constant_TypeMonster_Standee then
+				params.monsterType = "Standee"
+			elseif TypeMonster == Constant_TypeMonster_Hex then
+				if GridType == Constant_Grid_Horizontal then
+					params.monsterType = "Horizontal"
+				elseif GridType == Constant_Grid_Vertical then
+					params.monsterType = "Vertical"
+				end
+			end
+
+			params.monsterPlacement = false
+
+			--Call Spawn Monster
+			wait(0.3)
+			getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
+		end
+	end
 
 
 
