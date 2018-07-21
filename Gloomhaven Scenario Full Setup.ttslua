@@ -20949,6 +20949,9 @@ ScenarioInformation_All = {
 			{image = "http://cloud-3.steamusercontent.com/ugc/931553965084839059/7AA80A43DBCA103082008EC7C2E5BC71E816C49A/"}
 		}
 		,gridType		= Constant_Grid_Vertical
+
+
+
 		,mapTiles		= {
 			{
 				tile			= "L1"
@@ -43731,7 +43734,6 @@ function spawnMonsters(params_MapTiles,GridType,params_AdjacentTiles)
 									params.monsterPosition = tIndividual.position
 
 									--Call Spawn Monster
-									wait(0.3)
 									getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
 								end
 							end
@@ -43872,8 +43874,6 @@ function spawnRoomTiles(MapTiles,DoorTiles)
 	startLuaCoroutine(self, "registerBags_Maps")
 
 
-
-
 	---------------------------------------
 	--Spawn Map, Overlay, Start, Door Tiles
 	---------------------------------------
@@ -43898,8 +43898,7 @@ function spawnRoomTiles(MapTiles,DoorTiles)
 					break
 				end
 			end
-
-
+			
 			--Overlay Tiles (not Start, Doors)
 			--If Overlays exist
 			if tMapTile.overlayTiles ~= nil then
@@ -44192,11 +44191,11 @@ function createMap()
 	--------------
 	--Move Spawner
 	--------------
-	self.setPositionSmooth(
-		{x=-12.687500, y=1.797194, z=29.553116}
-		,false
-		,true
-	)
+	-- self.setPositionSmooth(
+	-- 	{x=-12.687500, y=1.797194, z=29.553116}
+	-- 	,false
+	-- 	,true
+	-- )
 
 
 
@@ -44243,7 +44242,6 @@ function createMap()
 				end
 			end
 		end
-
 		spawnRoomTiles(tMapTiles,tDoorTiles,nil)
 	else
 		spawnRoomTiles(ScenarioInformation.mapTiles,ScenarioInformation.doorTiles,nil)
@@ -44267,27 +44265,28 @@ function createMap()
 	--------------------
 	--Monster Stat Cards
 	--------------------
-	if ScenarioInformation.monsterList ~= nil then
-		for _,tMonsterList in ipairs(ScenarioInformation.monsterList) do
-			local params = {}
+	if TypeMap == Constant_TypeMap_Full then
+		if ScenarioInformation.monsterList ~= nil then
+			for _,tMonsterList in ipairs(ScenarioInformation.monsterList) do
+				local params = {}
 
-			params.monsterName = tMonsterList
+				params.monsterName = tMonsterList
 
-			if TypeMonster == Constant_TypeMonster_Standee then
-				params.monsterType = "Standee"
-			elseif TypeMonster == Constant_TypeMonster_Hex then
-				if GridType == Constant_Grid_Horizontal then
-					params.monsterType = "Horizontal"
-				elseif GridType == Constant_Grid_Vertical then
-					params.monsterType = "Vertical"
+				if TypeMonster == Constant_TypeMonster_Standee then
+					params.monsterType = "Standee"
+				elseif TypeMonster == Constant_TypeMonster_Hex then
+					if GridType == Constant_Grid_Horizontal then
+						params.monsterType = "Horizontal"
+					elseif GridType == Constant_Grid_Vertical then
+						params.monsterType = "Vertical"
+					end
 				end
+
+				params.monsterPlacement = false
+
+				--Call Spawn Monster
+				getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
 			end
-
-			params.monsterPlacement = false
-
-			--Call Spawn Monster
-			wait(0.3)
-			getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
 		end
 	end
 
