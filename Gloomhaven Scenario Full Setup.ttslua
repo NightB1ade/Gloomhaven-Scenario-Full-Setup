@@ -15448,7 +15448,7 @@ ScenarioInformation_All = {
 				name	= "Stone Door Horizontal"
 				,tiles	= {
 					{
-						adjacentTiles	= {"B2","I1","L1","L3"}
+						adjacentTiles	= {"B2","I1","L1","L3","Battlements"}
 						,position		= {x=0.757723, y=1.818233, z=-0.428645}
 						,rotation		= {x=359.984985, y=270.086578, z=180.037598}
 					}
@@ -15651,19 +15651,6 @@ ScenarioInformation_All = {
 				}
 				,monsters		= {
 					{
-						name	= "Captain of the Guard"
-						,tiles	= {
-							{
-								numCharacters	= {
-									[2]		= Constant_LevelMonster_Normal
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Normal
-								}
-								,position		= {x=-5.304403, y=1.818269, z=-5.687502}
-							}
-						}
-					}
-					,{
 						name	= "City Archer"
 						,tiles	= {
 							{
@@ -15698,38 +15685,6 @@ ScenarioInformation_All = {
 								}
 								,position		= {x=7.577760, y=2.067911, z=-1.750016}
 							}
-							,{
-								numCharacters	= {
-									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=0.757738, y=2.067894, z=-5.687488}
-							}
-							,{
-								numCharacters	= {
-									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=-0.757770, y=2.067668, z=-5.687501}
-							}
-							,{
-								numCharacters	= {
-									[2]		= Constant_LevelMonster_Elite
-									,[3]	= Constant_LevelMonster_Elite
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=0.000002, y=2.067852, z=-7.000001}
-							}
-							,{
-								numCharacters	= {
-									[2]		= Constant_LevelMonster_Elite
-									,[3]	= Constant_LevelMonster_Elite
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=1.515547, y=2.068078, z=-7.000001}
-							}
 						}
 					}
 					,{
@@ -15750,46 +15705,6 @@ ScenarioInformation_All = {
 									,[4]	= Constant_LevelMonster_Elite
 								}
 								,position		= {x=1.515606, y=2.183865, z=0.875020}
-							}
-							,{
-								numCharacters	= {
-									[2]		= Constant_LevelMonster_Normal
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=6.062074, y=2.067903, z=-4.375017}
-							}
-							,{
-								numCharacters	= {
-									[2]		= Constant_LevelMonster_Normal
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=5.304407, y=2.067899, z=-5.687506}
-							}
-							,{
-								numCharacters	= {
-									[2]		= Constant_LevelMonster_Elite
-									,[3]	= Constant_LevelMonster_Elite
-									,[4]	= Constant_LevelMonster_Elite
-								}
-								,position		= {x=-3.788866, y=2.067217, z=-5.687511}
-							}
-							,{
-								numCharacters	= {
-									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Normal
-								}
-								,position		= {x=-4.546634, y=2.067033, z=-4.375002}
-							}
-							,{
-								numCharacters	= {
-									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Normal
-								}
-								,position		= {x=-4.546638, y=2.067175, z=-7.000010}
 							}
 						}
 					}
@@ -15903,6 +15818,106 @@ ScenarioInformation_All = {
 						,{
 							position	= {x=4.546628, y=1.933473, z=8.750002}
 							,rotation	= {x=359.990875, y=329.983917, z=359.988953}
+						}
+					}
+				}
+			}
+			,{
+				tile			= "Battlements"
+				,monsters		= {
+					{
+						name	= "Captain of the Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-5.304403, y=1.818269, z=-5.687502}
+							}
+						}
+					}
+					,{
+						name	= "City Archer"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.757738, y=2.067894, z=-5.687488}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-0.757770, y=2.067668, z=-5.687501}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0.000002, y=2.067852, z=-7.000001}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=1.515547, y=2.068078, z=-7.000001}
+							}
+						}
+					}
+					,{
+						name	= "City Guard"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=6.062074, y=2.067903, z=-4.375017}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=5.304407, y=2.067899, z=-5.687506}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-3.788866, y=2.067217, z=-5.687511}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-4.546634, y=2.067033, z=-4.375002}
+							}
+							,{
+								numCharacters	= {
+									[2]		= nil
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-4.546638, y=2.067175, z=-7.000010}
+							}
 						}
 					}
 				}
@@ -44290,7 +44305,7 @@ function createMap()
 						params.monsterType = "Vertical"
 					end
 				end
-	  
+
 
 				params.monsterPlacement = false
 
