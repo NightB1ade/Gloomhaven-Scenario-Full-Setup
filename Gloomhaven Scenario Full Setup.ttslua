@@ -550,7 +550,7 @@ ScenarioInformation_All = {
 							,{
 								numCharacters	= {
 									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
+									,[3]	= nil
 									,[4]	= Constant_LevelMonster_Normal
 								}
 								,position		= {x=0.757773, y=2.067771, z=8.312500}
