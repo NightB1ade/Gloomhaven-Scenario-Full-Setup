@@ -4290,6 +4290,14 @@ ScenarioInformation_All = {
 								}
 								,position		= {x=-0.757774, y=2.066851, z=10.062521}
 							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=-5.24, y=2.066851, z=2.22}
+							}
 						}
 					}
 				}
@@ -43731,7 +43739,6 @@ function spawnMonsters(params_MapTiles,GridType,params_AdjacentTiles)
 									params.monsterPosition = tIndividual.position
 
 									--Call Spawn Monster
-									wait(0.3)
 									getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
 								end
 							end
@@ -44192,11 +44199,11 @@ function createMap()
 	--------------
 	--Move Spawner
 	--------------
-	self.setPositionSmooth(
-		{x=-12.687500, y=1.797194, z=29.553116}
-		,false
-		,true
-	)
+	-- self.setPositionSmooth(
+	--	{x=-12.687500, y=1.797194, z=29.553116}
+	--	,false
+	--	,true
+	-- )
 
 
 
@@ -44267,27 +44274,29 @@ function createMap()
 	--------------------
 	--Monster Stat Cards
 	--------------------
-	if ScenarioInformation.monsterList ~= nil then
-		for _,tMonsterList in ipairs(ScenarioInformation.monsterList) do
-			local params = {}
+	if TypeMap == Constant_TypeMap_Full then
+		if ScenarioInformation.monsterList ~= nil then
+			for _,tMonsterList in ipairs(ScenarioInformation.monsterList) do
+				local params = {}
 
-			params.monsterName = tMonsterList
+				params.monsterName = tMonsterList
 
-			if TypeMonster == Constant_TypeMonster_Standee then
-				params.monsterType = "Standee"
-			elseif TypeMonster == Constant_TypeMonster_Hex then
-				if GridType == Constant_Grid_Horizontal then
-					params.monsterType = "Horizontal"
-				elseif GridType == Constant_Grid_Vertical then
-					params.monsterType = "Vertical"
+				if TypeMonster == Constant_TypeMonster_Standee then
+					params.monsterType = "Standee"
+				elseif TypeMonster == Constant_TypeMonster_Hex then
+					if GridType == Constant_Grid_Horizontal then
+						params.monsterType = "Horizontal"
+					elseif GridType == Constant_Grid_Vertical then
+						params.monsterType = "Vertical"
+					end
 				end
+	  
+
+				params.monsterPlacement = false
+
+				--Call Spawn Monster
+				getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
 			end
-
-			params.monsterPlacement = false
-
-			--Call Spawn Monster
-			wait(0.3)
-			getObjectFromGUID(Scripts_GUID).call("spawnMonster", params)
 		end
 	end
 
