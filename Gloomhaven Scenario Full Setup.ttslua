@@ -13151,6 +13151,19 @@ ScenarioInformation_All = {
 						}
 					}
 					,{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=5.25, y=2.068349, z=6.06}
+							}
+						}
+					}
+					,{
 						name	= "Living Corpse"
 						,tiles	= {
 							{
