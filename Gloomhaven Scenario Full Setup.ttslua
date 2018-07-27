@@ -24322,7 +24322,7 @@ ScenarioInformation_All = {
 							,{
 								numCharacters	= {
 									[2]		= Constant_LevelMonster_Normal
-									,[3]	= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
 									,[4]	= Constant_LevelMonster_Elite
 								}
 								,position		= {x=-5.304405, y=2.067642, z=9.187501}
@@ -24942,7 +24942,7 @@ ScenarioInformation_All = {
 							,{
 								numCharacters	= {
 									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
 									,[4]	= Constant_LevelMonster_Normal
 								}
 								,position		= {x=-5.304405, y=2.067750, z=-6.562500}
