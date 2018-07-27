@@ -13760,15 +13760,15 @@ ScenarioInformation_All = {
 										,rotation	= {x=359.993317, y=179.999634, z=-0.004233}
 									}
 									,{
-										position	= {x=3.062498, y=1.931085, z=11.366584}
+										position	= {x=3.062500, y=2.067612, z=12.882128}
 										,rotation	= {x=359.993317, y=179.999557, z=-0.004230}
 									}
 									,{
-										position	= {x=4.374998, y=1.931093, z=12.124360}
+										position	= {x=4.374985, y=2.067621, z=13.639929}
 										,rotation	= {x=359.993286, y=179.999573, z=-0.004230}
 									}
 									,{
-										position	= {x=5.687498, y=1.931279, z=11.366578}
+										position	= {x=5.687500, y=2.067806, z=12.882128}
 										,rotation	= {x=359.993317, y=179.999298, z=-0.004234}
 									}
 								}
@@ -13786,7 +13786,7 @@ ScenarioInformation_All = {
 									,[3]	= Constant_LevelMonster_Normal
 									,[4]	= Constant_LevelMonster_Elite
 								}
-								,position		= {x=4.374985, y=2.067621, z=13.639929}
+								,position	= {x=4.374998, y=1.931093, z=12.124360}
 							}
 							,{
 								numCharacters	= {
@@ -13794,7 +13794,7 @@ ScenarioInformation_All = {
 									,[3]	= Constant_LevelMonster_Normal
 									,[4]	= Constant_LevelMonster_Elite
 								}
-								,position		= {x=3.062500, y=2.067612, z=12.882128}
+								,position	= {x=3.062498, y=1.931085, z=11.366584}
 							}
 							,{
 								numCharacters	= {
@@ -13802,7 +13802,7 @@ ScenarioInformation_All = {
 									,[3]	= Constant_LevelMonster_Normal
 									,[4]	= Constant_LevelMonster_Elite
 								}
-								,position		= {x=5.687500, y=2.067806, z=12.882128}
+								,position	= {x=5.687498, y=1.931279, z=11.366578}
 							}
 						}
 					}
@@ -14415,7 +14415,7 @@ ScenarioInformation_All = {
 							,{
 								numCharacters	= {
 									[2]		= Constant_LevelMonster_Normal
-									,[3]	= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Elite
 									,[4]	= Constant_LevelMonster_Elite
 								}
 								,order			= {
@@ -17262,7 +17262,7 @@ ScenarioInformation_All = {
 						,tiles	= {
 							{
 								numCharacters	= {
-									[2]		= Constant_LevelMonster_Elite
+									[2]		= Constant_LevelMonster_Normal
 									,[3]	= Constant_LevelMonster_Elite
 									,[4]	= Constant_LevelMonster_Elite
 								}
@@ -18674,6 +18674,14 @@ ScenarioInformation_All = {
 									,[4]	= Constant_LevelMonster_Normal
 								}
 								,position		= {x=9.187500, y=2.068552, z=-0.757774}
+							}
+							,{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Normal
+									,[3]	= Constant_LevelMonster_Normal
+									,[4]	= Constant_LevelMonster_Normal
+								}
+								,position		= {x=-9.19, y=2.068552, z=-0.76}
 							}
 						}
 					}
