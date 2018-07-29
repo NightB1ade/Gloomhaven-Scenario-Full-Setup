@@ -38397,18 +38397,6 @@ ScenarioInformation_All = {
 							}
 							,{
 								numCharacters	= {
-									[2]		= nil
-									,[3]	= nil
-									,[4]	= Constant_LevelMonster_Normal
-								}
-								,order			= {
-									["I1"]	= 2
-									,["F1"]	= 2
-								}
-								,position		= {x=2.273317, y=2.068376, z=12.687500}
-							}
-							,{
-								numCharacters	= {
 									[2]		= Constant_LevelMonster_Normal
 									,[3]	= Constant_LevelMonster_Normal
 									,[4]	= Constant_LevelMonster_Normal
@@ -38474,18 +38462,6 @@ ScenarioInformation_All = {
 							}
 							,{
 								numCharacters	= {
-									[2]		= nil
-									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Normal
-								}
-								,order			= {
-									["I1"]	= 5
-									,["F1"]	= 4
-								}
-								,position		= {x=0.757772, y=2.184356, z=12.687500}
-							}
-							,{
-								numCharacters	= {
 									[2]		= Constant_LevelMonster_Elite
 									,[3]	= Constant_LevelMonster_Elite
 									,[4]	= Constant_LevelMonster_Elite
@@ -38507,18 +38483,6 @@ ScenarioInformation_All = {
 									,["F1"]	= 2
 								}
 								,position		= {x=5.304405, y=2.068394, z=17.937500}
-							}
-							,{
-								numCharacters	= {
-									[2]		= nil
-									,[3]	= nil
-									,[4]	= Constant_LevelMonster_Normal
-								}
-								,order			= {
-									["I1"]	= 8
-									,["F1"]	= 1
-								}
-								,position		= {x=6.819951, y=2.068426, z=15.312500}
 							}
 						}
 					}
@@ -41122,6 +41086,19 @@ ScenarioInformation_All = {
 						}
 					}
 					,{
+						name	= "Living Spirit"
+						,tiles	= {
+							{
+								numCharacters	= {
+									[2]		= Constant_LevelMonster_Elite
+									,[3]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Elite
+								}
+								,position		= {x=0, y=2.067672, z=0}
+							}
+						}
+					}
+					,{
 						name	= "Hound"
 						,tiles	= {
 							{
@@ -42453,7 +42430,7 @@ ScenarioInformation_All = {
 								numCharacters	= {
 									[2]		= nil
 									,[3]	= Constant_LevelMonster_Normal
-									,[4]	= Constant_LevelMonster_Elite
+									,[4]	= Constant_LevelMonster_Normal
 								}
 								,order			= {
 									["M1"]	= 1
